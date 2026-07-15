@@ -33,22 +33,22 @@
   </g>
 
   <!-- Lane B: the ledger -->
-  <text x="44" y="312" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" font-size="26" font-weight="800" fill="#F4772E">MINT THE MEMORIES · THE XRP LEDGER</text>
+  <text x="44" y="312" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" font-size="26" font-weight="800" fill="#F4772E">AWARD THE MEMORIES · THE XRP LEDGER</text>
 
   <g font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif">
     <rect x="44" y="336" width="256" height="170" rx="18" fill="#FFFFFF" stroke="#F4772E" stroke-width="3"/>
-    <text x="172" y="384" text-anchor="middle" font-size="34">🏁</text>
-    <text x="172" y="420" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3B5A">A milestone happens</text>
-    <text x="172" y="446" text-anchor="middle" font-size="15" fill="#5A6572">a leg done, a show seen,</text>
-    <text x="172" y="466" text-anchor="middle" font-size="15" fill="#5A6572">a journal entry to keep</text>
+    <text x="172" y="384" text-anchor="middle" font-size="34">🏅</text>
+    <text x="172" y="420" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3B5A">A badge is awarded</text>
+    <text x="172" y="446" text-anchor="middle" font-size="15" fill="#5A6572">a captain or co pilot</text>
+    <text x="172" y="466" text-anchor="middle" font-size="15" fill="#5A6572">honors who earned it</text>
 
     <line x1="300" y1="421" x2="336" y2="421" stroke="#9AA6B2" stroke-width="3" marker-end="url(#arrow)"/>
 
     <rect x="340" y="336" width="256" height="170" rx="18" fill="#FFFFFF" stroke="#F4772E" stroke-width="3"/>
     <text x="468" y="384" text-anchor="middle" font-size="34">🎨</text>
     <text x="468" y="420" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3B5A">Art is created</text>
-    <text x="468" y="446" text-anchor="middle" font-size="15" fill="#5A6572">one of a kind,</text>
-    <text x="468" y="466" text-anchor="middle" font-size="15" fill="#5A6572">from that exact moment</text>
+    <text x="468" y="446" text-anchor="middle" font-size="15" fill="#5A6572">one of a kind, numbered,</text>
+    <text x="468" y="466" text-anchor="middle" font-size="15" fill="#5A6572">in the Epic Trip style</text>
 
     <line x1="596" y1="421" x2="632" y2="421" stroke="#9AA6B2" stroke-width="3" marker-end="url(#arrow)"/>
 
