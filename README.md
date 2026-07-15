@@ -56,6 +56,8 @@ Make Waves.
 
 ## How a badge is born
 
+<img src="assets/epictrip-badge-example.jpg" align="right" width="300" alt="Example badge: a paper cutout style boombox with headphones, musical notes, and a sun, stamped IMELDA, ROAD DJ, No. 15">
+
 1. A captain or co pilot awards a badge inside the app: they pick who earned it, pick a
    category (Navigator, Explorer, Snack Captain, Road DJ, Memory Keeper, Trooper, Trip MVP),
    and write what it was for.
