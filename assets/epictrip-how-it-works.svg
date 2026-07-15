@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680" role="img" aria-label="How Epic Trip works. Top lane, plan it and live it: tell Roadie about your trip, Roadie builds the whole trip (route, hotels, things to do, EV charging), and the crew rides along with checklists, journal, expenses, and live vehicle status. Bottom lane, mint the memories on the XRP Ledger: a milestone happens, one of a kind art is created from that moment, the art and metadata are pinned to IPFS, and an NFT is minted on the XRP Ledger to the family wallet. Payments settle in RLUSD, wallet to wallet, for fractions of a cent.">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#9AA6B2"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="680" rx="24" fill="#FDF9F0"/>
+
+  <!-- Lane A: the app -->
+  <text x="44" y="56" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" font-size="26" font-weight="800" fill="#12A5A0">PLAN IT AND LIVE IT · THE APP</text>
+
+  <g font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif">
+    <rect x="44" y="80" width="340" height="160" rx="18" fill="#FFFFFF" stroke="#12A5A0" stroke-width="3"/>
+    <text x="214" y="128" text-anchor="middle" font-size="34">💬</text>
+    <text x="214" y="164" text-anchor="middle" font-size="22" font-weight="700" fill="#1C3B5A">Tell Roadie about your trip</text>
+    <text x="214" y="192" text-anchor="middle" font-size="16" fill="#5A6572">a short interview, in plain words</text>
+
+    <line x1="384" y1="160" x2="428" y2="160" stroke="#9AA6B2" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="432" y="80" width="340" height="160" rx="18" fill="#FFFFFF" stroke="#12A5A0" stroke-width="3"/>
+    <text x="602" y="128" text-anchor="middle" font-size="34">🧭</text>
+    <text x="602" y="164" text-anchor="middle" font-size="22" font-weight="700" fill="#1C3B5A">Roadie builds the whole trip</text>
+    <text x="602" y="192" text-anchor="middle" font-size="16" fill="#5A6572">route, hotels, things to do,</text>
+    <text x="602" y="214" text-anchor="middle" font-size="16" fill="#5A6572">EV charging plan</text>
+
+    <line x1="772" y1="160" x2="816" y2="160" stroke="#9AA6B2" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="820" y="80" width="340" height="160" rx="18" fill="#FFFFFF" stroke="#12A5A0" stroke-width="3"/>
+    <text x="990" y="128" text-anchor="middle" font-size="34">🚙</text>
+    <text x="990" y="164" text-anchor="middle" font-size="22" font-weight="700" fill="#1C3B5A">The crew rides along</text>
+    <text x="990" y="192" text-anchor="middle" font-size="16" fill="#5A6572">checklists, journal, expenses,</text>
+    <text x="990" y="214" text-anchor="middle" font-size="16" fill="#5A6572">live vehicle status</text>
+  </g>
+
+  <!-- Lane B: the ledger -->
+  <text x="44" y="312" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" font-size="26" font-weight="800" fill="#F4772E">MINT THE MEMORIES · THE XRP LEDGER</text>
+
+  <g font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif">
+    <rect x="44" y="336" width="256" height="170" rx="18" fill="#FFFFFF" stroke="#F4772E" stroke-width="3"/>
+    <text x="172" y="384" text-anchor="middle" font-size="34">🏁</text>
+    <text x="172" y="420" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3B5A">A milestone happens</text>
+    <text x="172" y="446" text-anchor="middle" font-size="15" fill="#5A6572">a leg done, a show seen,</text>
+    <text x="172" y="466" text-anchor="middle" font-size="15" fill="#5A6572">a journal entry to keep</text>
+
+    <line x1="300" y1="421" x2="336" y2="421" stroke="#9AA6B2" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="340" y="336" width="256" height="170" rx="18" fill="#FFFFFF" stroke="#F4772E" stroke-width="3"/>
+    <text x="468" y="384" text-anchor="middle" font-size="34">🎨</text>
+    <text x="468" y="420" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3B5A">Art is created</text>
+    <text x="468" y="446" text-anchor="middle" font-size="15" fill="#5A6572">one of a kind,</text>
+    <text x="468" y="466" text-anchor="middle" font-size="15" fill="#5A6572">from that exact moment</text>
+
+    <line x1="596" y1="421" x2="632" y2="421" stroke="#9AA6B2" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="636" y="336" width="256" height="170" rx="18" fill="#FFFFFF" stroke="#F4772E" stroke-width="3"/>
+    <text x="764" y="384" text-anchor="middle" font-size="34">📌</text>
+    <text x="764" y="420" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3B5A">Pinned to IPFS</text>
+    <text x="764" y="446" text-anchor="middle" font-size="15" fill="#5A6572">art and metadata</text>
+    <text x="764" y="466" text-anchor="middle" font-size="15" fill="#5A6572">any wallet can fetch</text>
+
+    <line x1="892" y1="421" x2="928" y2="421" stroke="#9AA6B2" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="932" y="336" width="228" height="170" rx="18" fill="#FFFFFF" stroke="#F4772E" stroke-width="3"/>
+    <text x="1046" y="384" text-anchor="middle" font-size="34">🪙</text>
+    <text x="1046" y="420" text-anchor="middle" font-size="21" font-weight="700" fill="#1C3B5A">Minted on XRPL</text>
+    <text x="1046" y="446" text-anchor="middle" font-size="15" fill="#5A6572">gifted to the</text>
+    <text x="1046" y="466" text-anchor="middle" font-size="15" fill="#5A6572">family wallet</text>
+  </g>
+
+  <!-- RLUSD strip -->
+  <rect x="44" y="556" width="1116" height="84" rx="18" fill="#1C3B5A"/>
+  <text x="602" y="590" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" font-size="20" font-weight="700" fill="#FDF6E8">Payments settle in RLUSD, a digital dollar on the XRP Ledger</text>
+  <text x="602" y="620" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" font-size="16" fill="#BFD3E4">subscriptions, extra AI trips, and crew settle up · wallet to wallet · fractions of a cent</text>
+</svg>
