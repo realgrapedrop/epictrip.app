@@ -47,16 +47,17 @@ Make Waves.
   pins it to IPFS with its metadata, and mints it as an NFT gifted to the family wallet. Each
   trip has a limited supply of badges, so every one means something. A full trip of awards
   costs well under a dollar, something only XRPL's tiny fees make sensible.
-- **RLUSD payments.** The paid tier and extra AI trips settle in RLUSD, a digital dollar on the
-  XRP Ledger. No card fees, no middleman, and the price of a subscription arrives whole.
-- **Crew settle up.** The app already tracks who paid for what on the trip. Settle up squares
-  the whole crew wallet to wallet in RLUSD for fractions of a cent.
+- **XRP or RLUSD payments.** Badge packs, and Trip Passes for bigger trips, are paid from the
+  family's own wallet in XRP or RLUSD, the digital dollar on the XRP Ledger. No card fees, no
+  middleman, and no subscription to forget about.
+- **Crew settle up.** The app already tracks who paid for what on the trip, and squaring up
+  wallet to wallet in RLUSD for fractions of a cent is the natural next step.
 - **We never hold anyone's money.** Every payment is signed in the member's own wallet. The
   only key the app keeps is the badge minter, and it holds pocket change.
 
 ## How a badge is born
 
-<img src="assets/epictrip-badge-example.jpg" align="right" width="300" alt="Example badge: a paper cutout style boombox with headphones, musical notes, and a sun, stamped IMELDA, ROAD DJ, No. 15">
+<img src="assets/epictrip-badge-example.jpg" align="right" width="300" alt="Example badge: a paper cutout style pink cooler packed with watermelon, pineapple, and oranges against a soft sunrise, stamped SNACK CAPTAIN, No. 14">
 
 1. A captain or co pilot awards a badge inside the app: they pick who earned it, pick a
    category (Navigator, Explorer, Snack Captain, Road DJ, Memory Keeper, Trooper, Trip MVP),
@@ -65,7 +66,8 @@ Make Waves.
    stamps it with the category and a globally unique mint number.
 3. The art and its metadata are pinned to IPFS so any wallet or marketplace can render it.
 4. An NFT is minted on the XRP Ledger (one collection per trip) and offered to the family
-   wallet so that only they can claim it. Badges are soulbound: keepsakes, not trading cards.
+   wallet so that only they can claim it. Awarded keepsakes are soulbound, while the playful
+   dice categories are transferable, so a family can gift one of those onward someday.
 5. The person who earned it gets an email with their badge, ready to share.
 
 The public side of a badge is only its art, category, and mint number. Names, stories, and
@@ -81,10 +83,10 @@ places stay private with the family. Nothing personal ever goes on a public ledg
 ## Under the hood
 
 Epic Trip is a web app with passkey sign in (no passwords, ever) and a family crew model: two
-captains, four co pilots, and four read only tagalongs per trip. The XRPL layer is built on the
-proven core of **Tiplet**, our earlier Make Waves project: wallet connect (Xaman, GemWallet,
-Crossmark), RLUSD settlement verified from the ledger itself, NFT minting via xrpl.js, IPFS
-pinning, and AI art generation, all already tested on the XRPL Testnet.
+captains, four co pilots, and four read only tagalongs per trip. It connects with the Xaman
+wallet today. The XRPL layer builds on the proven core of **Tiplet**, our earlier Make Waves
+project, which brought wallet connect, RLUSD settlement verified from the ledger itself, NFT
+minting via xrpl.js, IPFS pinning, and AI art generation.
 
 ## What we will never claim
 
@@ -96,10 +98,11 @@ pinning, and AI art generation, all already tested on the XRPL Testnet.
 
 ## Status
 
-The app itself is built and running, the badge pipeline is live on the XRPL Testnet today
-(art generated, pinned to IPFS, minted soulbound, gifted to the family wallet), and a real
-family road trip happens inside the Make Waves window. The build order for the challenge:
-awarded badges on Testnet, then Mainnet, then RLUSD subscriptions and settle up.
+The app is built and running, and the badge pipeline is live on the XRP Ledger Mainnet as of
+July 2026 (art generated, pinned to IPFS, minted to the family wallet, awarded end to end). The
+XRPL Testnet keeps running in parallel as the archive of the July family trip. A real family
+road trip happens inside the Make Waves window. Next on the build order: Trip Passes and crew
+settle up in RLUSD.
 
 ---
 
