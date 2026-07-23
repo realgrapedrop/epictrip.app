@@ -8,19 +8,24 @@
 [![Powered by XRPL](https://img.shields.io/badge/Powered%20by-XRPL-AFE6CE)](https://xrpl.org)
 [![Make Waves 2026](https://img.shields.io/badge/Make%20Waves-2026-1C3B5A)](https://hackathons.xrpl-commons.org/)
 
-Epic Trip is a trip planner for families. You describe the trip you want, and Roadie, the AI
-travel agent built into the app, interviews you and builds the whole thing: the route, the
-hotels, curated things to do at every stop, planned events, and an EV charging plan. Then the
-app rides along during the trip itself, with checklists, a shared journal, group expenses, and
-live vehicle status. And when someone earns it, a captain awards them a badge: a one of a
-kind artwork in the Epic Trip style, minted on the XRP Ledger, that the family keeps forever.
+Trip organizers like TripIt and Wanderlog tidy up bookings you already made. AI chat planners
+hand you an itinerary as a wall of text you still have to build somewhere else. Epic Trip is
+different.
+
+You tell Roadie, the AI travel agent built into the app, about the trip you want, and it builds
+the whole thing into the app itself: the route, the hotels, curated things to do at every stop,
+planned events, and an EV charging plan. Not a list of suggestions, a real, structured, editable
+trip. Then the app stays open and rides along for the drive, with checklists, a shared journal,
+group expenses, and live vehicle status. And when someone earns it, a captain awards them a
+badge, a one of a kind artwork in the Epic Trip style minted on the XRP Ledger, that the family
+keeps forever. No other travel product turns a family's trip into keepsakes on a public ledger.
 
 > **This repo is the concept and the high level design, not the app's source code.** It exists
 > so the Make Waves on XRPL community can see what Epic Trip is and exactly how it uses XRP,
 > RLUSD, and the XRP Ledger.
 
 <p align="center">
-  <img src="assets/epictrip-how-it-works.svg" alt="How Epic Trip works: the app lane (tell Roadie about your trip, Roadie builds the whole trip, the crew rides along) and the XRP Ledger lane (a badge is awarded by a captain, one of a kind numbered art is created in the Epic Trip style, it is pinned to IPFS, and an NFT is minted to the family wallet). Payments settle in RLUSD, wallet to wallet." width="920">
+  <img src="assets/epictrip-how-it-works.svg" alt="How Epic Trip works: the app lane (tell Roadie about your trip, Roadie builds the whole trip, the crew rides along) and the XRP Ledger lane (a badge is awarded by a captain, one of a kind numbered art is created in the Epic Trip style, it is pinned to IPFS, and an NFT is minted to the family wallet). Payments are made in XRP or RLUSD, wallet to wallet." width="920">
 </p>
 
 ## The idea
@@ -60,33 +65,25 @@ Make Waves.
 <img src="assets/epictrip-badge-example.jpg" align="right" width="300" alt="Example badge: a paper cutout style pink cooler packed with watermelon, pineapple, and oranges against a soft sunrise, stamped SNACK CAPTAIN, No. 14">
 
 1. A captain or co pilot awards a badge inside the app: they pick who earned it, pick a
-   category (Navigator, Explorer, Snack Captain, Road DJ, Memory Keeper, Trooper, Trip MVP),
+   category (Navigator, Explorer, Snack Captain, Road DJ, Photographer, Trooper, Trip MVP),
    and write what it was for.
 2. The app paints one of a kind art in the Epic Trip style, inspired by what they wrote, and
    stamps it with the category and a globally unique mint number.
 3. The art and its metadata are pinned to IPFS so any wallet or marketplace can render it.
 4. An NFT is minted on the XRP Ledger (one collection per trip) and offered to the family
    wallet so that only they can claim it. Awarded keepsakes are soulbound, while the playful
-   dice categories are transferable, so a family can gift one of those onward someday.
+   bonus categories are transferable, so a family can gift one of those onward someday.
 5. The person who earned it gets an email with their badge, ready to share.
 
 The public side of a badge is only its art, category, and mint number. Names, stories, and
 places stay private with the family. Nothing personal ever goes on a public ledger.
 
-## Why Epic Trip is different
-
-- Trip organizers (TripIt, Wanderlog) tidy up bookings but cannot create a plan.
-- AI chat planners suggest itineraries as text you still have to build somewhere else.
-- Epic Trip's AI output **is** the app's live state, the app stays open during the trip, and no
-  travel product anywhere mints your trip's memories on a public ledger.
-
 ## Under the hood
 
-Epic Trip is a web app with passkey sign in (no passwords, ever) and a family crew model: two
-captains, four co pilots, and four read only tagalongs per trip. It connects with the Xaman
-wallet today. The XRPL layer builds on the proven core of **Tiplet**, our earlier Make Waves
-project, which brought wallet connect, RLUSD settlement verified from the ledger itself, NFT
-minting via xrpl.js, IPFS pinning, and AI art generation.
+Epic Trip is a web app with passkey sign in (no passwords, ever) and a family crew model: one
+captain, one co pilot, and five read only tagalongs per trip. It connects with the Xaman
+wallet today. The XRPL layer covers wallet connect, XRP and RLUSD settlement verified on the
+ledger itself, NFT minting via xrpl.js, IPFS pinning, and AI art generation.
 
 ## What we will never claim
 
